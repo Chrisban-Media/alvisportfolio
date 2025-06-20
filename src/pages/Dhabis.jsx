@@ -111,7 +111,7 @@ const Dhabis = () => {
         <p className="text-justify py-5 lg:mt-0 mt-[-10%] lg:w-[150%]">
           My main goal was to keep Dhabi's Place visually aligned with modern
           food brand trends by consistently updating its design presence.
-          Looking ahead, I aimed to expand the brand’s digital footprint by
+          Looking ahead, I aimed to expand the brand's digital footprint by
           designing a website and mobile app to improve customer engagement and
           create a faster, more seamless connection between the business and its
           audience.

@@ -1,5 +1,6 @@
 import Footer from "../components/Footer.jsx";
 import Header from "../components/Header.jsx";
+import profilePic from "../assets/profilepic.png";
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
         {/* hero image */}
         <img
           className="hidden lg:block heroimg w-100 h-auto"
-          src="src/assets/profilepic.png"
+          src={profilePic}
           alt=""
         />
       </div>

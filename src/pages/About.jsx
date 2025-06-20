@@ -44,9 +44,9 @@ const About = () => {
             quickly turned into a passion for creating intuitive, meaningful
             experiences that bridge form and function. Today, I channel that
             passion into crafting thoughtful digital products that make everyday
-            interactions smoother and more enjoyable.  I studied Soil Science
-            and land resource management in the university of Nigeria Nsukka,
-            and as a recent grad, I'm looking forward to my next chapter!
+            interactions smoother and more enjoyable. I studied Soil Science and
+            land resource management in the university of Nigeria Nsukka, and as
+            a recent grad, I'm looking forward to my next chapter!
           </p>
         </div>
 
@@ -135,7 +135,7 @@ const About = () => {
       <div className="lg:flex grid lg:p-15 p-5 lg:gap-10 gap-10 md:p-5">
         <div className="grid lg:gap-8 gap-20 w-full">
           <h1 className="text-4xl font-semibold ">What I'm listening to </h1>
-          <p className="w-[70%] md:text-2xl lg:mt-[-30%] mt-[-10%] w-full">
+          <p className="w-[70%] md:text-2xl lg:mt-[-30%] mt-[-10%]">
             5ive Album by Davido, Not Like Us by Kendrick lamar, City Boys by
             Burna Boy
           </p>
@@ -161,7 +161,7 @@ const About = () => {
           <h1 className="lg:text-4xl text-2xl items-center w-full md:gap-5 font-semibold ">
             What I'm Listening
           </h1>
-          <p className="w-[70%] md:text-2xl lg:mt-[2%] mt-[-10%] w-full">
+          <p className="w-[70%] md:text-2xl lg:mt-[2%] mt-[-10%]">
             Prison Break, Money Heist, Blacklist, Mission Impossible, Suits,
             Jujutsu Kaisen
           </p>
@@ -191,7 +191,7 @@ const About = () => {
           <h1 className="lg:text-4xl text-2xl items-center w-full font-semibold ">
             What I'm watching
           </h1>
-          <p className="w-[70%] md:text-2xl lg:mt-[-40%] mt-[-10%] w-full">
+          <p className="w-[70%] md:text-2xl lg:mt-[-40%] mt-[-10%]">
             Prison Break, Money Heist, Blacklist, Mission Impossible, Suits,
             Jujutsu Kaisen
           </p>

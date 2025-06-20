@@ -11,15 +11,6 @@ import Misce from "./pages/Misce";
 import Projects from "./pages/Projects";
 
 const App = () => {
-  const [darkMode, setDarkMode] = useState(false);
-
-  useEffect(() => {
-    if (darkMode) {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-  }, [darkMode]);
   return (
     <>
       {/* this the dark and light mode code */}
