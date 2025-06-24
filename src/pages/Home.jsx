@@ -27,8 +27,8 @@ export default function Home() {
         />
       </div>
       {/* the three doings in the hero section */}
-      <div className="lg:flex flex-col p-10  md:flex-row md:p-8 lg:p-15 justify-between items-center">
-        <div>
+      <div className="lg:flex flex-col p-5 gap-10 md:flex-row md:p-8 lg:p-15 justify-between items-center">
+        <div className="py-3">
           <h2
             className="text-[#B5B1B1] text-2xl font-semibold hover:text-gray-500
           cursor-pointer transition duration-300"
@@ -37,7 +37,7 @@ export default function Home() {
           </h2>
           <p className="w-[75%]">Intern Product Designer at ighub.ng</p>
         </div>
-        <div>
+        <div className="py-3">
           <h2
             className="text-[#B5B1B1] text-2xl font-semibold hover:text-gray-500
           cursor-pointer transition duration-300"
@@ -48,7 +48,7 @@ export default function Home() {
             Incoming Product Designer at Any Nice Organization.ng
           </p>
         </div>
-        <div>
+        <div className="py-3">
           <h2
             className="text-[#B5B1B1] text-2xl font-semibold hover:text-gray-500
           cursor-pointer transition duration-300"

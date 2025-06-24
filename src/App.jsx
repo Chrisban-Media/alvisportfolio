@@ -2,7 +2,6 @@ import { Route, Routes } from "react-router-dom";
 import About from "./pages/About";
 
 import "./index.css";
-import React, { useState, useEffect } from "react"; // src/App.jsx
 import Home from "./pages/Home";
 import Ighub from "./pages/Ighub";
 import Fun from "./pages/Fun";
