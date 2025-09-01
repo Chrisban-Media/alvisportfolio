@@ -7,10 +7,10 @@ const Misce = () => {
     <>
       <Header />
       {/* Misce image */}
-      <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] mx-auto">
+      <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] md:h-120 mx-auto">
         <div className="flex justify-center items-center gap-30">
           <img
-            className="workimg lg:w-[60%] w-[70%] overflow-hidden"
+            className="workimg lg:w-[80%] w-[70%] overflow-hidden"
             src="src/assets/Group 28.png"
             alt="ighub logo"
           />
@@ -35,7 +35,7 @@ const Misce = () => {
         </p>
       </div>
       {/* UBA project image */}
-      <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] mx-auto">
+      <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] md:h-170 lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] mx-auto">
         <div className="flex justify-center items-center gap-30">
           <img
             className="workimg lg:w-[25%] w-[50%] overflow-hidden"
@@ -53,7 +53,7 @@ const Misce = () => {
         </p>
       </div>
       {/* Crunchies image */}
-      <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] mx-auto">
+      <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] md:h-120 lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] mx-auto">
         <div className="flex justify-center items-center gap-30">
           <img
             className="workimg lg:w-[28%] w-[30%] overflow-hidden"
@@ -70,7 +70,7 @@ const Misce = () => {
         </p>
       </div>
       {/* NFT App image */}
-      <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] mx-auto">
+      <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] md:h-120 lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] mx-auto">
         <div className="flex justify-center items-center gap-30">
           <img
             className="workimg lg:w-[50%] w-[70%] overflow-hidden"
@@ -88,7 +88,7 @@ const Misce = () => {
         </p>
       </div>
       {/* NGO Eco-friend image */}
-      <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] mx-auto">
+      <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] md:h-150 lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] mx-auto">
         <div className="flex justify-center items-center gap-30">
           <img
             className="workimg lg:w-[26%] w-[35%] overflow-hidden"

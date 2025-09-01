@@ -8,8 +8,8 @@ const Fun = () => {
     <>
       <Header />
       {/* fun project (wallets) image */}
-      <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] mx-auto mb-10 left-0">
-        <div className="flex gap-10 justify-center">
+      <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] mx-auto mb-10 md:h-120 left-0">
+        <div className="flex lg:gap-20 gap-15 justify-center">
           <img
             className="workimg lg:w-[100%] w-[30%] h-[30%] pb-10"
             src="src/assets/wallet 2 1.png"

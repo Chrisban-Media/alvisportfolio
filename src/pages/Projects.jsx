@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Zollos from "../assets/funImages/zollos.png";
 
 const Projects = () => {
   return (
@@ -20,8 +21,8 @@ const Projects = () => {
         <div className="flex justify-center items-center gap-30">
           <img
             className="workimg lg:w-[25%] w-[75%] overflow-hidden"
-            src="src/assets/funImages/zollos.png"
-            alt="ighub logo"
+            src={Zollos}
+            alt="Zollows logo"
           />
         </div>
       </div>

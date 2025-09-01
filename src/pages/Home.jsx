@@ -99,10 +99,10 @@ export default function Home() {
       {/* ighub image */}
       <a href="/ighub">
         <div
-          className="ighub-bg bg-gray-50 p-5 grid place-items-center w-[90%] lg:w-[80%] mx-auto mb-10 
-  h-[calc(50vh-100px)] lg:h-[calc(90vh-100px)]"
+          className="ighub-bg bg-gray-50 p-5 grid place-items-center w-[90%] lg:w-[80%] md:h-[30%] mx-auto mb-10 
+  h-[calc(50vh-100px)] md:gap-5 gap-10 lg:h-[calc(90vh-100px)]"
         >
-          <h1 className="ighub pt-20 pb-0 lg:text-8xl text-5xl font-bold text-[#b5b1b1]">
+          <h1 className="ighub pt-20 pb-0 lg:text-8xl md:text-[700%] font-bold text-[#b5b1b1]">
             IGHUB
           </h1>
           <img
@@ -146,7 +146,7 @@ export default function Home() {
       </div>
       {/* fun project (wallets) image */}
       <a href="/fun">
-        <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] mx-auto mb-10 left-0">
+        <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] mx-auto mb-10 md:h-120 left-0">
           <div className="flex lg:gap-20 gap-15 justify-center">
             <img
               className="workimg lg:w-[100%] w-[30%] h-[30%] pb-10"
@@ -194,7 +194,7 @@ export default function Home() {
       </div>
       {/* dhabis project image image */}
       <a href="/dhabis">
-        <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] mx-auto">
+        <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] md:h-120 mx-auto">
           <div className="flex justify-center items-center gap-30">
             <img
               className="workimg lg:w-[80%] w-[70%] overflow-hidden"
@@ -240,7 +240,7 @@ export default function Home() {
       </div>
       {/* Misce image */}
       <a href="/misce">
-        <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] mx-auto">
+        <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] md:h-120 mx-auto">
           <div className="flex justify-center items-center gap-30">
             <img
               className="workimg lg:w-[80%] w-[70%] overflow-hidden"

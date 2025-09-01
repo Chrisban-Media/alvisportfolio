@@ -7,17 +7,20 @@ const Ighub = () => {
     <>
       <Header />
       {/* here is the Ighub Project project page */}
-      <div className="justify-between gap-25 p-15">
-        <div className="ighub-bg bg-gray-50 grid justify-center items-center w-[100%] h-[calc(90vh-100px)] mx-auto mb-10 left-0">
-          <h1 className="ighub pt-20 pb-0 text-7xl font-bold text-[#b5b1b1]">
+      <div className="justify-between gap-25 lg:p-15 md:p-10 p-5">
+        <div
+          className="ighub-bg bg-gray-50 p-5 grid place-items-center w-[90%] lg:w-[80%] md:h-[30%] mx-auto mb-10 
+  h-[calc(50vh-100px)] md:gap-5 gap-10 lg:h-[calc(90vh-100px)]"
+        >
+          <h1 className="ighub pt-20 pb-0 lg:text-8xl md:text-[700%] font-bold text-[#b5b1b1]">
             IGHUB
           </h1>
           <img
-            className="ighubimg w-[45%] mx-auto pb-20"
+            className="ighubimg lg:w-[20%] w-[25%] mx-auto pb-20"
             src="src/assets/IGHub-Logo.png"
             alt="ighub logo"
           />
-        </div>{" "}
+        </div>
         <h1 className="flex gap-10 items-center font-semibold text-4xl">
           Innovation Growth Hub
         </h1>

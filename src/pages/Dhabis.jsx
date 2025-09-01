@@ -7,7 +7,7 @@ const Dhabis = () => {
     <>
       <Header />
       {/* dhabis project image image */}
-      <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] mx-auto">
+      <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] md:h-120 mx-auto">
         <div className="flex justify-center items-center gap-30">
           <img
             className="workimg lg:w-[80%] w-[70%] overflow-hidden"
@@ -69,7 +69,7 @@ const Dhabis = () => {
       </div>
 
       {/* dhabis project image image */}
-      <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] mx-auto">
+      <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] md:h-120 mx-auto">
         <div className="flex justify-center items-center gap-30">
           <img
             className="workimg lg:w-[80%] w-[70%] overflow-hidden"
