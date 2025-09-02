@@ -5,7 +5,9 @@ import IghubProject from "../assets/IGHub-Logo.png";
 import Wallets from "../assets/wallet 2 1.png";
 import Dhabis from "../assets/foodie.png";
 import Misce from "../assets/Group 28.png";
-import Zollos from "../assets/funImages/zollos.png"; 
+import Zollos from "../assets/funImages/zollos.png";
+import { Link } from "react-router-dom";
+import { Outlet } from "react-router-dom"; 
 
 import { useState } from "react";
 
@@ -104,7 +106,7 @@ export default function Home() {
         </div>
       </div>
       {/* ighub image */}
-      <a href="/ighub">
+      <a href="/Ighub">
         <div
           className="ighub-bg bg-gray-50 p-5 grid place-items-center w-[90%] lg:w-[80%] md:h-[30%] mx-auto mb-10 
   h-[calc(50vh-100px)] md:gap-5 gap-10 lg:h-[calc(90vh-100px)]"
