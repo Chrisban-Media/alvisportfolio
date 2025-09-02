@@ -1,6 +1,10 @@
 import Footer from "../components/Footer.jsx";
 import Header from "../components/Header.jsx";
 import profilePic from "../assets/profilepic.png";
+import IghubProject from "../assets/IGHub-Logo.png";
+import Wallets from "../assets/wallet 2 1.png";
+import Dhabis from "../assets/foodie.png";
+import Misce from "../assets/Group 28.png"; 
 
 export default function Home() {
   return (
@@ -105,9 +109,10 @@ export default function Home() {
           <h1 className="ighub pt-20 pb-0 lg:text-8xl md:text-[700%] font-bold text-[#b5b1b1]">
             IGHUB
           </h1>
+          {/* the Home Project Image */}
           <img
             className="ighubimg lg:w-[20%] w-[25%] mx-auto pb-20"
-            src="src/assets/IGHub-Logo.png"
+            src={IghubProject}
             alt="ighub logo"
           />
         </div>
@@ -148,14 +153,15 @@ export default function Home() {
       <a href="/fun">
         <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] mx-auto mb-10 md:h-120 left-0">
           <div className="flex lg:gap-20 gap-15 justify-center">
+            {/* The wallet image in the Hoem section */}
             <img
               className="workimg lg:w-[100%] w-[30%] h-[30%] pb-10"
-              src="src/assets/wallet 2 1.png"
+              src={Wallets}
               alt="ighub logo"
             />
             <img
               className="workimg lg:w-[100%] w-[30%] h-[30%] pt-10"
-              src="src/assets/wallet 2 1.png"
+              src={Wallets}
               alt="ighub logo"
             />
           </div>
@@ -196,9 +202,10 @@ export default function Home() {
       <a href="/dhabis">
         <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] md:h-120 mx-auto">
           <div className="flex justify-center items-center gap-30">
+            {/* The Dhabis Image in the Home page */}
             <img
               className="workimg lg:w-[80%] w-[70%] overflow-hidden"
-              src="src/assets/foodie.png"
+              src={Dhabis}
               alt="ighub logo"
             />
           </div>
@@ -242,9 +249,10 @@ export default function Home() {
       <a href="/misce">
         <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] md:h-120 mx-auto">
           <div className="flex justify-center items-center gap-30">
+            {/* The Misce Image in the Home Page */}
             <img
               className="workimg lg:w-[80%] w-[70%] overflow-hidden"
-              src="src/assets/Group 28.png"
+              src={Misce}
               alt="ighub logo"
             />
           </div>
