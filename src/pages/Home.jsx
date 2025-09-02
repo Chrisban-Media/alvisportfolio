@@ -7,7 +7,12 @@ import Dhabis from "../assets/foodie.png";
 import Misce from "../assets/Group 28.png";
 import Zollos from "../assets/funImages/zollos.png";
 import { Link } from "react-router-dom";
-import { Outlet } from "react-router-dom"; 
+import { Outlet } from "react-router-dom";
+import Projects from "./Projects.jsx";
+import Ighub from "./Ighub.jsx";
+import DhabisPlace from "./DhabisPlace.jsx";
+import MisceProject from "./MisceProject.jsx";
+import Fun from "./Fun.jsx";    
 
 import { useState } from "react";
 
@@ -106,7 +111,7 @@ export default function Home() {
         </div>
       </div>
       {/* ighub image */}
-      <a href="/Ighub">
+      <a href={Ighub}>
         <div
           className="ighub-bg bg-gray-50 p-5 grid place-items-center w-[90%] lg:w-[80%] md:h-[30%] mx-auto mb-10 
   h-[calc(50vh-100px)] md:gap-5 gap-10 lg:h-[calc(90vh-100px)]"
@@ -155,7 +160,7 @@ export default function Home() {
         </div>
       </div>
       {/* fun project (wallets) image */}
-      <a href="/fun">
+      <a href={Fun}>
         <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] mx-auto mb-10 md:h-120 left-0">
           <div className="flex lg:gap-20 gap-15 justify-center">
             {/* The wallet image in the Hoem section */}
@@ -204,7 +209,7 @@ export default function Home() {
         </div>
       </div>
       {/* dhabis project image image */}
-      <a href="/dhabis">
+      <a href={DhabisPlace}>
         <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] md:h-120 mx-auto">
           <div className="flex justify-center items-center gap-30">
             {/* The Dhabis Image in the Home page */}
@@ -251,7 +256,7 @@ export default function Home() {
         </div>
       </div>
       {/* Misce image */}
-      <a href="/misce">
+      <a href={MisceProject}>
         <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] md:h-120 mx-auto">
           <div className="flex justify-center items-center gap-30">
             {/* The Misce Image in the Home Page */}
@@ -295,7 +300,7 @@ export default function Home() {
         </div>
       </div>
       {/* Zollos image */}
-      <a href="/projects">
+      <a href={Projects}>
         <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] md:h-120 mx-auto">
           <div className="flex justify-center items-center gap-30">
             {/* The Misce Image in the Home Page */}
