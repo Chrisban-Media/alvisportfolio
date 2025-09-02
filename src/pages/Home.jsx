@@ -10,8 +10,8 @@ import { Link } from "react-router-dom";
 import { Outlet } from "react-router-dom";
 import Projects from "./Projects.jsx";
 import Ighub from "./Ighub.jsx";
-import DhabisPlace from "./DhabisPlace.jsx";
-import MisceProject from "./MisceProject.jsx";
+import DhabisPlace from "./Dhabis.jsx";
+import MisceProject from "./Misce.jsx";
 import Fun from "./Fun.jsx";    
 
 
@@ -220,7 +220,7 @@ export default function Home() {
             />
           </div>
         </div>
-      </a>
+      </a>  
       {/* another section of the project */}
       {/* Here is the Miscellaneous Project section page */}
       <div className="grid justify-between gap-25 lg:p-15 p-5">
