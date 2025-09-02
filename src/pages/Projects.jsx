@@ -2,6 +2,10 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Zollos from "../assets/funImages/zollos.png";
+import { Outlet } from "react-router-dom"; 
+import Voice from "../assets/funImages/voicematters.png"; 
+import Razest from "../assets/funImages/rezest.png";
+import Ighub from "../assets/funImages/ighub.png";
 
 const Projects = () => {
   return (
@@ -20,7 +24,7 @@ const Projects = () => {
       <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] mx-auto">
         <div className="flex justify-center items-center gap-30">
           <img
-            className="workimg lg:w-[25%] w-[75%] overflow-hidden"
+            className="workimg lg:w-[25%] w-[65%] overflow-hidden"
             src={Zollos}
             alt="Zollows logo"
           />
@@ -39,8 +43,8 @@ const Projects = () => {
       <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] mx-auto">
         <div className="flex justify-center items-center gap-30">
           <img
-            className="workimg lg:w-[28%] w-[60%] overflow-hidden"
-            src="src/assets/funImages/voicematters.png"
+            className="workimg lg:w-[24%] w-[55%]  overflow-hidden"
+            src={Voice}
             alt="ighub logo"
           />
         </div>
@@ -60,8 +64,8 @@ const Projects = () => {
       <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] mx-auto">
         <div className="flex justify-center items-center gap-30">
           <img
-            className="workimg lg:w-[50%] w-[23%] overflow-hidden"
-            src="src/assets/funImages/rezest.png"
+            className="workimg lg:w-[20%] w-[20%] overflow-hidden"
+            src={Razest}
             alt="ighub logo"
           />
         </div>
@@ -79,8 +83,8 @@ const Projects = () => {
       <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] mx-auto">
         <div className="flex justify-center items-center gap-30">
           <img
-            className="workimg lg:w-[26%] w-[28%] overflow-hidden"
-            src="src/assets/funImages/ighub.png"
+            className="workimg lg:w-[36%] w-[25%] overflow-hidden"
+            src={Ighub}
             alt="ighub logo"
           />
         </div>

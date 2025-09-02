@@ -4,7 +4,10 @@ import profilePic from "../assets/profilepic.png";
 import IghubProject from "../assets/IGHub-Logo.png";
 import Wallets from "../assets/wallet 2 1.png";
 import Dhabis from "../assets/foodie.png";
-import Misce from "../assets/Group 28.png"; 
+import Misce from "../assets/Group 28.png";
+import Zollos from "../assets/funImages/zollos.png"; 
+
+import { useState } from "react";
 
 export default function Home() {
   return (
@@ -251,13 +254,62 @@ export default function Home() {
           <div className="flex justify-center items-center gap-30">
             {/* The Misce Image in the Home Page */}
             <img
-              className="workimg lg:w-[80%] w-[70%] overflow-hidden"
+              className="workimg lg:w-[60%] w-[60%] overflow-hidden"
               src={Misce}
               alt="ighub logo"
             />
           </div>
         </div>
       </a>
+      
+      {/* another section of the project */}
+      {/* Here is the ZOLLOS Project section page */}
+      <div className="grid justify-between gap-25 lg:p-15 p-5">
+        {/* button in the feature section */}
+        <div className="flex gap-5">
+          <button className="btn bg-[#B5B1B1] py-2 px-3 rounded-[5px] font-semibold hover:scale-115 transition duration-300">
+            GALLARY
+          </button>
+          <button className="btn bg-[#B5B1B1] py-2 px-3 rounded-[5px] font-semibold hover:scale-115 transition duration-300">
+            UI DESIGN
+          </button>
+        </div>
+        <div>
+          <h1 className="flex gap-10 items-center font-bold text-4xl">
+            Zollos Project
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width={50}
+              height={70}
+              viewBox="0 0 24 24"
+              className="arrowright hover:fill-[#d2d2d2] transition duration-300 "
+            >
+              <path
+                // fill="currentColor"
+                d="M4 11v2h12v2h2v-2h2v-2h-2V9h-2v2zm10-4h2v2h-2zm0 0h-2V5h2zm0 10h2v-2h-2zm0 0h-2v2h2z"
+              ></path>
+            </svg>
+          </h1>
+        </div>
+      </div>
+      {/* Zollos image */}
+      <a href="/projects">
+        <div className=" ighub-bg bg-gray-50 grid justify-center items-center lg:w-[80%] w-[90%] lg:h-[calc(90vh-100px)] h-[calc(50vh-100px)] md:h-120 mx-auto">
+          <div className="flex justify-center items-center gap-30">
+            {/* The Misce Image in the Home Page */}
+            <img
+              className="workimg lg:w-[30%] w-[69%] overflow-hidden"
+              src={Zollos}
+              alt="ighub logo"
+            />
+          </div>
+        </div>
+      </a>
+      
+      {/* END */}
+      
+  
+      
 
       <Footer />
     </>

@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Foodie from "../assets/foodie.png";
+import Review from "../assets/funImages/dhabisreview.png";
 
 const Dhabis = () => {
   return (
@@ -11,7 +13,7 @@ const Dhabis = () => {
         <div className="flex justify-center items-center gap-30">
           <img
             className="workimg lg:w-[80%] w-[70%] overflow-hidden"
-            src="src/assets/foodie.png"
+            src={Foodie}
             alt="ighub logo"
           />
         </div>
@@ -73,7 +75,7 @@ const Dhabis = () => {
         <div className="flex justify-center items-center gap-30">
           <img
             className="workimg lg:w-[80%] w-[70%] overflow-hidden"
-            src="src/assets/foodie.png"
+            src={Foodie}
             alt="ighub logo"
           />
         </div>
@@ -98,7 +100,7 @@ const Dhabis = () => {
       <div className="grid lg:p-15 p-5 gap-20">
         <img
           className="lg:rounded-2xl rounded-[5px] h-auto w-100%"
-          src="src/assets/funImages/dhabisreview.png"
+          src={Review}
           alt="customer review"
         />
       </div>

@@ -2,6 +2,11 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Outlet } from "react-router-dom";
+import Wallets from "../assets/wallet 2 1.png";
+import Fun1 from "../assets/funImages/fun1.png";
+import Fun2 from "../assets/funImages/fun2.png";
+import Fun3 from "../assets/funImages/fun3.png";
+import Fun4 from "../assets/funImages/fun4.png";   
 
 const Fun = () => {
   return (
@@ -12,12 +17,12 @@ const Fun = () => {
         <div className="flex lg:gap-20 gap-15 justify-center">
           <img
             className="workimg lg:w-[100%] w-[30%] h-[30%] pb-10"
-            src="src/assets/wallet 2 1.png"
+            src={Wallets}
             alt="ighub logo"
           />
           <img
-            className="workimg lg:w-[100%] w-[30%] h-[30%] pt-10"
-            src="src/assets/wallet 2 1.png"
+            className="workimg lg:w-[100%] w-[30%] h-[30%] pb-10"
+            src={Wallets}
             alt="ighub logo"
           />
         </div>
@@ -77,22 +82,22 @@ const Fun = () => {
       <div className="grid lg:p-15 p-5 gap-20">
         <img
           className="funimg lg:rounded-2xl rounded-[5px] h-auto w-100%"
-          src="src/assets/funImages/fun1.png"
+          src={Fun1}
           alt="fun project image"
         />
         <img
           className="funimg lg:rounded-2xl rounded-[5px] h-auto w-100%"
-          src="src/assets/funImages/fun2.png"
+          src={Fun2}
           alt="fun project image"
         />
         <img
           className="funimg lg:rounded-2xl rounded-[5px] h-auto w-100%"
-          src="src/assets/funImages/fun3.png"
+          src={Fun3}
           alt="fun project image"
         />
         <img
           className="funimg lg:rounded-2xl rounded-[5px] h-auto w-100%"
-          src="src/assets/funImages/fun4.png"
+          src={Fun4}
           alt="fun project image"
         />
       </div>

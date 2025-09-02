@@ -1,6 +1,13 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { Outlet } from "react-router-dom";
+import Group28 from "../assets/Group 28.png";
+import Uba from "../assets/funImages/uba.png";
+import Crunchies from "../assets/funImages/crunchies.png";
+import Nft from "../assets/funImages/Nft.png";
+import Ecofarm from "../assets/funImages/ecofarm.png";  
+
 
 const Misce = () => {
   return (
@@ -11,7 +18,7 @@ const Misce = () => {
         <div className="flex justify-center items-center gap-30">
           <img
             className="workimg lg:w-[80%] w-[70%] overflow-hidden"
-            src="src/assets/Group 28.png"
+          src={Group28}
             alt="ighub logo"
           />
         </div>
@@ -39,7 +46,7 @@ const Misce = () => {
         <div className="flex justify-center items-center gap-30">
           <img
             className="workimg lg:w-[25%] w-[50%] overflow-hidden"
-            src="src/assets/funImages/uba.png"
+            src={Uba}
             alt="ighub logo"
           />
         </div>
@@ -57,7 +64,7 @@ const Misce = () => {
         <div className="flex justify-center items-center gap-30">
           <img
             className="workimg lg:w-[28%] w-[30%] overflow-hidden"
-            src="src/assets/funImages/crunchies.png"
+            src={Crunchies}
             alt="ighub logo"
           />
         </div>
@@ -74,7 +81,7 @@ const Misce = () => {
         <div className="flex justify-center items-center gap-30">
           <img
             className="workimg lg:w-[50%] w-[70%] overflow-hidden"
-            src="src/assets/funImages/Nft.png"
+            src={Nft }
             alt="ighub logo"
           />
         </div>
@@ -92,7 +99,7 @@ const Misce = () => {
         <div className="flex justify-center items-center gap-30">
           <img
             className="workimg lg:w-[26%] w-[35%] overflow-hidden"
-            src="src/assets/funImages/ecofarm.png"
+            src={Ecofarm}
             alt="ighub logo"
           />
         </div>

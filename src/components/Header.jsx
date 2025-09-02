@@ -14,7 +14,9 @@ const Header = () => {
   return (
     <div className="flex justify-between items-center mt-6">
       <div className="flex justify-between items-center lg:text-6xl lg:gap-8 md:gap-6 lg:p-15 text-6xl text-wrap p-5 gap-3">
+        <a className="anime  hover:text-black" href="/">
         <h1 className=" text-[30px] font-semibold">Elvis</h1>{" "}
+        </a>
         {/* <img
           src="./src/assets/ri_moon-line.png"
           className="scale-[0.8]"

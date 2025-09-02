@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import IghubProject from "../assets/IGHub-Logo.png";  
 
 const Ighub = () => {
   return (
@@ -15,9 +16,10 @@ const Ighub = () => {
           <h1 className="ighub pt-20 pb-0 lg:text-8xl md:text-[700%] font-bold text-[#b5b1b1]">
             IGHUB
           </h1>
+          {/* Ighub logo image */}
           <img
             className="ighubimg lg:w-[20%] w-[25%] mx-auto pb-20"
-            src="src/assets/IGHub-Logo.png"
+            src={IghubProject}
             alt="ighub logo"
           />
         </div>
@@ -26,26 +28,26 @@ const Ighub = () => {
         </h1>
       </div>
       {/* here are the design lead in the tech field */}
-      <div className="flex p-15 gap-10">
+      <div className="flex lg:p-15 p-5 gap-10">
         <div className="grid gap-8 w-[100%]">
-          <h1 className="text-4xl font-semibold ">ROLE </h1>
-
+          <h1 className="lg:text-4xl text-2xl font-semibold ">ROLE </h1>
           <p>Product Design Intern</p>
         </div>
+
         <div className="grid">
-          <h1 className="text-2xl font-semibold ">DURATION </h1>
-          <p className="flex text-wrap text-justify w-[150%]">
+          <h1 className="lg:text-4xl text-2xl font-semibold ">DURATION </h1>
+          <p className="flex text-wrap text-justify w-[100%]">
             January to June 2025 (6 months)
           </p>
         </div>
       </div>
       {/* here is second the design lead in the tech field */}
-      <div className="flex p-15 gap-10">
+      <div className="lg:flex grid lg:p-15 p-5 gap-10">
         <div className="grid gap-8 w-[100%]">
           <h1 className="text-4xl font-semibold ">Brief </h1>
         </div>
 
-        <p className="flex text-wrap text-justify w-[150%]">
+        <p className="grid gap-5 lg:w-[150%] w-[100%] text-justify">
           At Ighub, I worked on a feature for an internal design tool aimed at
           supporting design systems and improving collaboration between
           designers and engineers. The goal was to streamline communication and
@@ -55,11 +57,11 @@ const Ighub = () => {
         </p>
       </div>
       {/* here is second the design lead in the tech field */}
-      <div className="flex p-15 gap-10">
+      <div className="lg:flex grid lg:p-15 p-5 gap-10">
         <div className="grid gap-8 w-[100%]">
           <h1 className="text-4xl font-semibold ">Learning and Growth</h1>
         </div>
-        <div className="grid gap-5 w-[150%]">
+        <div className="grid gap-5 lg:w-[150%] w-[100%]">
           <p className="flex text-wrap  text-justify">
             During my time working on the Ighub Digitize Your Business project,
             I had the opportunity to deepen my skills in UX/UI
@@ -80,7 +82,7 @@ const Ighub = () => {
             and accessibility to ensure the designs were not only interactive
             but also aesthetically pleasing and intuitive to use.
           </p>
-          <p className="flex text-wrap text-justify">
+          <p className="flex  text-wrap text-justify">
             This hands-on process taught me the importance of designing with
             purpose—every button, transition, and layout decision was
             intentional and tied back to improving the overall user experience.
@@ -88,11 +90,11 @@ const Ighub = () => {
         </div>
       </div>
       {/* here is third the design lead in the tech field */}
-      <div className="flex p-15 gap-10">
+      <div className="lg:flex grid lg:p-15 p-5 gap-10">
         <div className="grid gap-8 w-[100%]">
           <h1 className="text-4xl font-semibold ">Takeaway </h1>
         </div>
-        <div className="grid gap-5 w-[150%]">
+        <div className="grid gap-5 lg:w-[150%] w-[100%]">
           <p className="flex text-wrap font-semibold text-justify">
             The work was very challenging, but that pushed me to learn more than
             at any other internship.
@@ -113,12 +115,12 @@ const Ighub = () => {
         </div>
       </div>
 
-      <h2 className="flex items-center gap-2 text-3xl font-semibold hover:text-[#b5b1b1] hover:scale-115 transition duration-300 cursor-pinter justify-end">
+      <h2 className="flex items-center gap-2 lg:text-3xl text-1xl font-semibold hover:text-[#b5b1b1] hover:scale-110 transition duration-300 cursor-pinter justify-end pr-10">
         Back To Top{" "}
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width={50}
-          height={70}
+          width={30}
+          height={40}
           viewBox="0 0 24 24"
           className="arrowright hover:fill-[#d2d2d2] transition duration-300 "
         >
